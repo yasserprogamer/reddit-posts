@@ -1,0 +1,29 @@
+{
+  "name": "reddit-posts",
+  "version": "1.0.1",
+  "description": "Get a random post from reddit with data!",
+  "main": "index.js",
+  "types": "./typings/index.d.ts",
+  "scripts": {
+    "test": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yasserprogamer/reddit-posts.git"
+  },
+  "keywords": [
+    "random-reddit-post",
+    "reddit",
+    "random-reddit",
+    "random-post"
+  ],
+  "author": "yasserprogamer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yasserprogamer/reddit-posts/issues"
+  },
+  "homepage": "https://github.com/yasserprogamer/reddit-posts#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
