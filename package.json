@@ -1,6 +1,6 @@
 {
   "name": "reddit-posts",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get a random post from reddit with data!",
   "main": "index.js",
   "types": "./typings/index.d.ts",
@@ -15,7 +15,11 @@
     "random-reddit-post",
     "reddit",
     "random-reddit",
-    "random-post"
+    "random-post",
+    "reddit-api",
+    "random reddit post",
+    "reddit post",
+    "reddit-post"
   ],
   "author": "yasserprogamer",
   "license": "ISC",

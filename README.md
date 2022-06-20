@@ -11,7 +11,7 @@ Here is an example for this package:
 ```js
 const RandomReddit = require("reddit-posts");
 
-RandomReddit.GetRandompost("aww").then(data =>{
+RandomReddit.GetRandompost("aww").then(data => {
  	console.log(data.title); //returns title of a post. For example: "This is just an example!"
     console.log(data.SubredditPrefix); //return: r/aww
     console.log(data.IsNSFW); //return: false. If it is a NSFW post it will return true.
@@ -20,6 +20,8 @@ RandomReddit.GetRandompost("aww").then(data =>{
     console.log(data.selftext); //returns selftext or description of a post. (String)
     console.log(data.url); //returns URL of post. For example: https://reddit.com/r/aww/comments/random/example/
     console.log(data.CommentsNum) // return: 4 or any number. It is for total comments number.
+    console.log(data.Author); // Get an author username which returns a string.
+    console.log(data.DownVotes); // DownVotes is just like data.UpVotes example and it returns number.
 });
 ```
 
@@ -33,3 +35,10 @@ console.log(PostData.url);
 ```
 
 I wish that example helps.
+
+
+
+# What's new in 1.0.2
+
+- Fixed auto-complete issues.
+- Added new values and they are: `Author` and `DownVotes` 
