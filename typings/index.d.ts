@@ -13,3 +13,4 @@ interface OnePostReturn {
 };
 
 export function GetRandompost(subreddit: string): Promise<OnePostReturn>;
+export function GetRandomHotpost(subreddit: string): Promise<OnePostReturn>;

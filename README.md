@@ -4,6 +4,26 @@
 
 **NOTE:** This package is not made by reddit. It is just unofficial package to get random post data. It is legal to use.
 
+## Installing package
+
+**This is recommended command to execute in terminal to install package:**
+
+```bash
+npm i reddit-posts@latest
+```
+
+Any command that install package is okay to run.
+
+## Requirements
+
+**minimum requirements:**
+
+- Having Node.js v12 or newer versions installed in your device.
+
+**maximum requirements:**
+
+- Having Node.js v16 or newer versions installed in your device.
+
 # Example
 
 Here is an example for this package:
@@ -11,7 +31,7 @@ Here is an example for this package:
 ```js
 const RandomReddit = require("reddit-posts");
 
-RandomReddit.GetRandompost("aww").then(data => {
+RandomReddit.GetRandompost("aww").then(async (data) => {
  	console.log(data.title); //returns title of a post. For example: "This is just an example!"
     console.log(data.SubredditPrefix); //return: r/aww
     console.log(data.IsNSFW); //return: false. If it is a NSFW post it will return true.
@@ -38,7 +58,12 @@ I wish that example helps.
 
 
 
-# What's new in 1.0.2
+**NOTE:** About `GetRandomHotpost()` function codes are just same as `GetRandompost()` function. You all gotta do is just replacing function names.
 
-- Fixed auto-complete issues.
-- Added new values and they are: `Author` and `DownVotes` 
+
+
+# What's new in 1.0.3
+
+- Added errors for incorrect usages.
+- Added a new function and it is: `GetRandomHotpost();`
+
