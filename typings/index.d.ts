@@ -9,8 +9,10 @@ interface OnePostReturn {
     IsNSFW: boolean,
     UpVotes: number,
     DownVotes: number,
-    CommentsNum: number
+    CommentsNum: number,
+    score: number
 };
 
 export function GetRandompost(subreddit: string): Promise<OnePostReturn>;
 export function GetRandomHotpost(subreddit: string): Promise<OnePostReturn>;
+export function GetRandomNewpost(subreddit: string): Promise<OnePostReturn>;

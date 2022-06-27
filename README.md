@@ -58,12 +58,12 @@ I wish that example helps.
 
 
 
-**NOTE:** About `GetRandomHotpost()` function codes are just same as `GetRandompost()` function. You all gotta do is just replacing function names.
+**NOTE:** About `GetRandomHotpost()` and `GetRandomNewpost()` function codes are just same as `GetRandompost()` function. You all gotta do is just replacing function names.
 
 
 
-# What's new in 1.0.3
+# What's new in 1.0.4
 
-- Added errors for incorrect usages.
-- Added a new function and it is: `GetRandomHotpost();`
+- Added new values to those functions: `score`.
+- Added a new function and it is `GetRandomNewpost();`
 
